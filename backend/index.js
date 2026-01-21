@@ -18,8 +18,8 @@ app.use(cookieParser());
 app.use(
   cors({
     origin: [
-      "http://localhost:3000",
-      "https://your-frontend-name.vercel.app"
+      "https://netflix-clone-gules-rho.vercel.app",
+      "http://localhost:3000"
     ],
     credentials: true
   })
