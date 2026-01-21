@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { use, useEffect } from 'react'
 import Header from './Header';
 import { useSelector} from "react-redux";
 import { useNavigate } from "react-router-dom";
@@ -25,7 +25,7 @@ const Browse = () => {
         if (!user) {
             navigate("/");
         }
-    }, []);
+    }, [user, navigate]);
     return (
         <div >
             <Header />
