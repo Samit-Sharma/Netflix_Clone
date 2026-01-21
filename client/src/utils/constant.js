@@ -1,4 +1,6 @@
-export const API_END_POINT = process.env.REACT_APP_API_URL ;
+export const API_END_POINT =
+  `${process.env.REACT_APP_API_URL}/api/v1/user`;
+
 
 export const options = {
     method: 'GET',
