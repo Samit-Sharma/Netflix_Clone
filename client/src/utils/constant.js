@@ -1,4 +1,4 @@
-export const API_END_POINT = "http://localhost:8080/api/v1/user";
+export const API_END_POINT = process.env.REACT_APP_API_URL ;
 
 export const options = {
     method: 'GET',
